@@ -1,0 +1,41 @@
+{
+  "name": "api-36",
+  "version": "1.0.0",
+  "description": "This is an ecommerce application api. ",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon index.js",
+    "start": "node index.js",
+    "migrate": "npx sequelize-cli db:migrate",
+    "migrate:undo": "npx sequelize-cli db:migrate:undo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Broadway-Mern-Team/api-36.git"
+  },
+  "author": "Elevate workforce",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Broadway-Mern-Team/api-36/issues"
+  },
+  "homepage": "https://github.com/Broadway-Mern-Team/api-36#readme",
+  "keywords": [],
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.5.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.0.1",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "kill-port": "^2.0.1",
+    "luxon": "^3.5.0",
+    "multer": "^2.0.2",
+    "nodemailer": "^6.10.0",
+    "nodemon": "^3.1.10",
+    "pg": "^8.13.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.5",
+    "slugify": "^1.6.6"
+  }
+}
